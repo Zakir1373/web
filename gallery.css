@@ -203,8 +203,6 @@ label:hover {
 }
 
 
-
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -389,4 +387,24 @@ footer {
 }
 .social-icons a:hover {
   color: #007bff;
+}
+
+.main-text{
+  padding-left: 10rem;
+  padding-top: 5rem;
+}
+
+.par {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #555;
+  letter-spacing: 0.5px;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-align: justify;
+  max-width: 90%;
+  margin-bottom: 2rem;
+  font-style: oblique;
+  font-family:Tahoma, sans-serif;
 }
