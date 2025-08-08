@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Traveling</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <div class="wrapper">
+
+      <div class="hero-area">
+        <header>
+          <div class="header-container">
+            <div class="logo">
+              <a><img src="./img/logo_2.png" alt="MySite logo" width="120"></a>
+            </div>
+
+            <div class="menu-wrapper">
+              <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+              </div>
+              <ul class="nav-links" id="nav-links">
+                <li><a href="index.html"><i class="fas fa-house"></i>Home</a></li>
+                <li><a href="country.html"><i class="fas fa-globe"></i>Country</a></li>
+                <li><a href="gallery.html"><i class="fas fa-image"></i>Gallery</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+              </ul>  
+            </div>
+          </div>
+        </header>
+
+        <div class="hero-overlay">
+          <form class="search-bar" action="/search" method="get">
+            <input type="text" name="query" placeholder="Find Your Next Adventure" />
+            <button type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+
+      <main class="main_text">
+        <h1 class="topic">Welcome to Hidden Horizons</h1>
+        <div>
+          <p class="par"> At Hidden Horizons, travel is more than a destination, it's about discovering untold stories, hidden places, and unforgettable experiences beyond the ordinary.</p>
+          <div class="zoom-effect">
+            <img src="./img/afghanistan-desert (1).jpg" alt="Hidden trail" class="inline-img">
+          </div>
+          
+
+        </div>
+
+        <div>
+          <p class="par">We take you off the beaten path to the world’s most beautiful and overlooked corners, whether you're chasing adventure or seeking peace. With expert tips and curated journeys, we help you explore deeply, meaningfully, and memorably.</p>
+          <img src="./img/lake (12).jpg" alt="Hidden trail" class="inline-img zoom-effect">
+
+        </div>
+
+        <div>
+          <p class="par">Let’s uncover the magic beyond the horizon, together.</p>
+          <img src="./img/mountain (5).jpg" alt="Hidden trail" class="inline-img zoom-effect">
+
+        </div>
+      </main>
+
+
+      <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+          navLinks.classList.toggle('show');
+        });
+      </script>
+    </div>
+
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="footer-contact">
+          <h3>Contact us </h3>
+          <p>Email: <a href="mailto:haidarizakirhossein@gmail.com">example@gmail.com</a></p>
+          <p>Phone: <a href="tel:0782275011">Phone: 0789123456</a></p>
+          <p>Address: <a href="https://www.google.com/maps?q=Your+Address+Here" target="_blank" rel="noopener noreferrer">1018 Lausanne</a></p>
+        </div>
+
+        <div class="social-icons">
+          <h3>Fallow us</h3>
+          <div>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
