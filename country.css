@@ -286,28 +286,21 @@ footer {
   background-color: rgba(41, 128, 185, 0.9);
 }
 
-.video-wrapper {
-  position: absoluteS;
-  width: 90%;
+.video-container {
+  position: relative;
   padding-bottom: 56.25%;
   height: 0;
-  margin-bottom: 2rem;
-  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-.video-wrapper iframe {
+.video-container iframe {
   position: absolute;
-  top: 10rem;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  border: none;
-  transition: transform 0.3s ease;
-
-}
-
-.video-wrapper iframe:hover {
-  transform: scale(1.05);
+  border: 0;
+  
 }
