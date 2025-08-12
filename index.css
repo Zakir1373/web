@@ -251,11 +251,12 @@ footer {
 .search-bar {
   display: flex;
   justify-content: center;
-  margin: 10rem 1rem;
+  margin: 13rem 5rem;
   max-width: 500px;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   padding: 0.25rem;
+  position: relative;
 }
 
 .search-bar input {
@@ -270,7 +271,7 @@ footer {
 }
 
 .search-bar input::placeholder {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(10, 228, 82, 0.7);
 }
 
 .search-bar button {
