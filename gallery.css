@@ -12,6 +12,8 @@ input {
 .container {
   width: 100%;
   text-align: center;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 h1 {
@@ -27,7 +29,7 @@ h1::before {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: crimson;
+  background-color: rgb(20, 220, 103);
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
@@ -225,6 +227,8 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .hero-area::after {
@@ -391,8 +395,9 @@ footer {
 }
 
 .main-text{
-  padding-left: 10rem;
-  padding-top: 4rem;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  margin-top: 0;
 }
 
 .par {
@@ -405,7 +410,7 @@ footer {
   border-radius: 5px;
   text-align: justify;
   max-width: 90%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-style: oblique;
   font-family:Tahoma, sans-serif;
 }
