@@ -3,6 +3,7 @@
 ***Hidden horizons*** is a website that i created with **HTMl, CSS and JS**. The reason why i created this website is to learn HTML, CSS & JS and improving my professional skills.
 It is a touristic website that give information about Afghanistan. Here you can information about different  places  like cities, mountains, lakes and deserts. 
 
+
 ## 🌐  The core web technologies.
 
 * 📄 **HTML** :
