@@ -4,11 +4,11 @@
 
 It is a touristic website that give information about Afghanistan. Here you can information about different  places  like cities, mountains, lakes and deserts. 
 
-## 🌐  The core web technologies.
+## 🌐The core web technologies.
 
-* 📄 **HTML** :
+* 📄**HTML** :
   Defines the structure and content of a web page using elements like headings, paragraphs, links, and images. 
-* 🎨 **CSS** :
+* 🎨**CSS** :
   Controls the visual appearance of the page, including layout, colors, fonts, and responsive design.
-* ⚡ **JS** :
+* ⚡**JS** :
 A programming language that adds interactivity and dynamic behavior to web pages, such as animations, form validation, and API interactions.
