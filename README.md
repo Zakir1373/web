@@ -1,7 +1,6 @@
 ## Touristic website
 
-***Hidden horizons*** is a website that I created with **HTML, CSS, and JS**.  
-The reason I created this website is to learn HTML, CSS & JS and improve my professional skills.
+***Hidden horizons*** is a website that I created with **HTML, CSS, and JS**. The reason I created this website is to learn HTML, CSS & JS and improve my professional skills.
 
 It is a touristic website that gives information about Afghanistan. Here you can find information about different places like cities, mountains, lakes, and deserts.
 
