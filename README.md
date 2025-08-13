@@ -7,10 +7,8 @@ It is a touristic website that give information about Afghanistan. Here you can 
 
 * 📄 **HTML** :
   Defines the structure and content of a web page using elements like headings, paragraphs, links, and images. 
-
 * 🎨 **CSS** :
   Controls the visual appearance of the page, including layout, colors, fonts, and responsive design.
-
 * ⚡ **JS** :
 A programming language that adds interactivity and dynamic behavior to web pages, such as animations, form validation, and API interactions.
 
