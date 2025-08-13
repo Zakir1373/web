@@ -11,7 +11,7 @@ It is a touristic website that gives information about Afghanistan. Here you can
 - ⚡ **JS** : A programming language that adds interactivity and dynamic behavior to web pages, such as animations, form validation, and API interactions.
 
 
-Items: 
+## ✅ To-do List 
 - [ ] first item
 - [ ] second item
 - [ ] second item
