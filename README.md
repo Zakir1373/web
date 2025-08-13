@@ -13,6 +13,6 @@ It is a touristic website that gives information about Afghanistan. Here you can
 
 ## ✅ To-do List
 
-- [ ] First item
+- [x] First item
 - [ ] Second item
 - [ ] Third item
