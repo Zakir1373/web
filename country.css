@@ -185,7 +185,15 @@ footer {
 .footer-contact p {
   margin: 0.4rem 0;
   line-height: 1.5;
+  font-weight: bold;
 }
+
+.footer-contact p a {
+  font-weight: bold;
+  max-width: 500px;
+  color:aquamarine
+}
+
 
 .social-icons a {
   margin: 0 10px;
@@ -197,7 +205,6 @@ footer {
 .social-icons a:hover {
   color: #007bff;
 }
-
 
 /*main part*/
 .main_text {

@@ -373,26 +373,32 @@ footer {
 }
 
 .footer-contact h2,
-.footer-social h2 {
-  margin-bottom: 1rem;
-  font-size: 1.3rem;
+.footer-social h2{
+  font-weight: bold;
+  font-style: italic;
 }
 
 .footer-contact p {
   margin: 0.4rem 0;
   line-height: 1.5;
+  font-weight: bold;
+}
+.footer-contact p a {
+  font-weight: bold;
+  max-width: 500px;
+  color:aquamarine
 }
 
 .social-icons a {
   margin: 0 10px;
-  color: #915454;
+  color: #9c9090;
   font-size: 35px;
   text-decoration: none;
   margin-bottom: 1rem;
 }
 
 .social-icons a:hover {
-  color: #007bff;
+  color: #14d14d;
 }
 
 .main-text{
