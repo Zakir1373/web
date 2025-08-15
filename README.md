@@ -19,3 +19,4 @@ It is a touristic website that gives information about Afghanistan. Here you can
 |Herat| Herat| 2m|
 |Balkh| Mazar| 2m|
 
+
